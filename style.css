@@ -1,0 +1,90 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+    height: 100vh;
+    background-color: #F0FFC3;
+}
+.game{
+    display: flex;
+    gap: 40px;
+    height: 10%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.main-container{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+.rock-paper-scissor{
+    height: 20%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+button{
+    border: none;
+    background-color: transparent;
+}
+.img {
+    height: 170px;
+    width: 170px;
+    border-radius: 50%;
+    text-align: center;
+}
+.img:hover{
+    border: 7px solid black;
+}
+.point-counts{
+    height: 15%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+#user-count,#comp-count {
+    text-align: center;
+    font-size: 50px;
+}
+.points{
+    height: 40px;
+    width: 100px;
+    text-align: center;
+    font-weight: 600;
+}
+.win-loss-message {
+    height: 30px;
+    width: 350px;
+    text-align: center;
+    border: 2px solid none;
+    padding: 10px;
+    font-weight: 700;
+    border-radius: 10px;
+    background-color:#134686;
+    color: white;
+    text-shadow: 0px 3px 2px rgba(0,0,0,1);
+    box-shadow: 0px 5px 2px rgba(0,0,0,1);
+}
+#rock{
+    background-image: url(https://rock-paper-scissors-lilac-alpha.vercel.app/static/media/rock.png);
+    background-size: cover;
+}
+#paper{
+    background-image: url(https://sihoonathan.github.io/rock-paper-scissors/assets/img/paper2.png);
+    background-size: cover;
+}
+#scissor{
+    background-image: url(https://i.pinimg.com/474x/67/eb/fd/67ebfd32e898b4ec3ae4e59ae33832c8.jpg);
+    background-size: cover;
+}
